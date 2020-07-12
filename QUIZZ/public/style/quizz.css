@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+  
+}
+.container{
+    background-image: url("../img/couverture.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+   /* overflow-x: hidden;*/
+    
+}
+ 
+.container-header{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    left: 0px;
+    top: 0px;
+    background: #7968E3;
+}
+
+.header-logo1{
+    background-image: url("../img/logo-QuizzSA.png");
+    background-size: 40%;
+    height: 90px;
+    width: 10%;
+    margin-left: 16px;
+    background-repeat: no-repeat;
+}
+
+.header-logo2{
+    background-image: url("../img/logo-QuizzSA.png");
+    background-size: 40%;
+    height: 90px;
+    width: 10%;
+    margin-left: 1075px;
+    margin-top: -88px;
+    background-repeat: no-repeat;
+}
+
+.header-text .titre1 {
+    position: absolute;
+    width: 797px;
+    height: 42px;
+    left: 190px;
+    top: 20px;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.header-text .titre2{
+    color: white;
+    position: absolute;
+    width: 471px;
+    height: 42px;
+    left: 350px;
+    top: 58px;
+
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+
+}
+
+.container-body{
+    border: 1px solid blueviolet;
+    background-image: url("../img/couverture.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height:auto;
+    width: 100%;
+}
+
+.container-conn{
+    position: absolute;
+    top: 150px;
+    width: 60%;
+    height: 400px;
+    justify-content: center;
+    margin: auto;
+    left: 20%;
+    background: #DADBE0;
+  
+}
+
+.header-connexion{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #18E6F3;
+}
+
+.body-connexion{
+    position: absolute;
+    top: 19%;
+    left: 0px;
+    width: 100%;
+    height:321px;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
+}
+
+h3{
+    position: absolute;
+    width: 881px;
+    height: 45px;
+    left: -15%;
+    top: 5%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 56px;
+    text-align: center;
+}
+
+.container-inscrip{
+    border: 1px solid darkturquoise;
+    border-radius: 10px;
+    position: absolute;
+    left: 25%;
+    top: 120px;
+    width: 50%;
+    height: 800px;
+    margin: auto;
+    padding: 10px;
+    background-color: #ffff;
+}
+
+.header-inscrip{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    background: #26D6CB;
+    border-radius: 5px;
+    }
+
+    .avatar1{
+        border: 1px solid blue;
+        border-radius: 100%;
+        width: 30%;
+        height: 150px;
+        margin: 10px;
+    }
+
+    .container-admin{
+        position: absolute;
+        top: 150px;
+        width: 90%;
+        height: 600px;
+        justify-content: center;
+        margin: auto;
+        left: 5%;
+        background:#DADBE0;
+    }
+
+    .header-admin{
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        left: 0px;
+        top: 0px;
+        background: #18E6F3;
+    }
+
+  
+    h1{
+        display: inline;
+        text-align: center;
+    }
+
+
